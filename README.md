@@ -1,5 +1,6 @@
 # ninjaScript
 ninjaScript - My Javascript Playground
+
 ![Slide image](img/keep-calm.jpg?raw=true "Title")
 
 - I realized I always talked about little tricks that I wanted to learn, but I never really had a place to hold stuff.
