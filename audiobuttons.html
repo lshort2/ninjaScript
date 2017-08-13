@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <title>Awesome buttons!</title>
+    </head>
+    <style type="text/css">
+        nav > div{
+            width: 150px;
+            height: 60px;
+            display: inline-block;
+            border-radius: 6px;
+            font-size: 48px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        var bleep1 = new Audio();
+        bleep1.src = "audio/alien-door-01.mp3";
+        var bleep2 = new Audio();
+        bleep2.src = "./audio/cat-meow.mp3";
+        var bleep3 = new Audio();
+        bleep3.src = "./audio/explosion-3.wav";
+        function goToPage1() {
+            bleep1.play();
+            setTimeout(function(){window.location.href="http://google.com"}, 2000);
+        }
+        function goToPage2() {
+            bleep2.play();
+            setTimeout(function(){window.location.href="http://yahoo.com"}, 1600);
+        }
+        function goToPage3() {
+            bleep3.play();
+            setTimeout(function(){window.location.href="http://bing.com"}, 1800);
+        }
+    </script>
+
+    <body>
+      <h3>Click one of the buttons!</h3>
+      <nav class="audio-buttons">
+          <div style="background-color: yellow;">
+              <a onclick="goToPage1()">Hello</a>
+          </div>
+          <div style="background-color: cyan;">
+              <a onclick="goToPage2()">Hola</a>
+          </div>
+          <div style="background-color: chartreuse;">
+              <a onclick="goToPage3()">Aloha</a>
+          </div>
+      </nav>
+    </body>
+</html>
