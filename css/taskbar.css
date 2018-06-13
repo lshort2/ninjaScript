@@ -1,0 +1,23 @@
+/*
+ * StyleSheet intended to make <nav> look
+ * like the old Ubuntu Unity taskbar
+ */
+.taskbar {
+  background: #7a2599;
+  height: 100%;
+  position: fixed;
+  right: -80px;
+  transition: .5s;
+  width: 96px;
+}
+
+.taskbar:hover {
+  right: 0px;
+}
+
+.taskbar div {
+  background: #3fa7a3;
+  height: 80px;
+  margin: .5rem;
+}
+
